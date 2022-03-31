@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1,user-scalable=no"
+    />
+    <title> Dharapuram | Hospitals </title>
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.22/esri/themes/light/main.css"
+    />
+    <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+    <script src="https://js.arcgis.com/4.22/"></script>
+    <script>
+      require(["esri/Map",
+       "esri/views/MapView",
+       "esri/widgets/Locate",
+       "esri/widgets/Search",
+       "esri/widgets/BasemapGallery",
+       "esri/widgets/Expand",
+       "esri/layers/FeatureLayer",
+       "esri/widgets/Home",
+       //"esri/config",
+       "esri/widgets/Print",
+       "esri/widgets/ScaleBar",
+       "esri/widgets/Compass"
+    ], (
+        Map,
+        MapView,
+        Locate,
+        Search,
+        BasemapGallery,
+        Expand,
+        FeatureLayer,
+        Home,
+       // esriConfig,
+        Print,
+        ScaleBar,
+        Compass
+      ) => {
+       
+      //old
+      const map = new Map({
+          basemap: "gray-vector"
+        });
+ 
+        const view = new MapView({
+          container: "viewDiv",
+          map: map,
+           center: [ 77.521687, 10.730713],  
+          zoom: 14,
+        });
+        const homeBtn = new Home({
+          view: view
+        });
+ 
+        // Add the home button to the top left corner of the view
+        view.ui.add(homeBtn, "top-left");
+ 
+        /********************
+         * Add feature layer
+         ********************/
+        //label
+            const labelClass = {
+        // autocasts as new LabelClass()
+        symbol: {
+            type: "text",  // autocasts as new TextSymbol()
+            color: '#7A003C',
+            font: {  // autocast as new Font()
+            family: "Josefin Slab",
+            size: 12,
+            weight: "bold"
+            }
+        },
+        labelPlacement: "above-center",
+        labelExpressionInfo: {
+            expression: "$feature.name"
+        }
+        };
+        const locateBtn = new Locate({
+          view: view
+        });
+ 
+        // Add the locate widget to the top left corner of the view
+        view.ui.add(locateBtn, {
+          position: "top-left"
+        });
+        const searchWidget = new Search({
+          view: view
+        });
+ 
+        // Add the search widget to the top right corner of the view
+        view.ui.add(searchWidget, {
+          position: "top-right"
+        });
+        const basemapGallery = new BasemapGallery({
+          view: view,
+          container: document.createElement("div")
+        });
+ 
+        // Create an Expand instance and set the content
+        // property to the DOM node of the basemap gallery widget
+        // Use an Esri icon font to represent the content inside
+        // of the Expand widget
+ 
+        const bgExpand = new Expand({
+          view: view,
+          content: basemapGallery
+        });
+        //print - widget
+ 
+        view.when(function() {
+          var print = new Print({
+            view: view,
+            // specify your own print service
+            printServiceUrl:
+              "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task"
+          });
+ 
+          // Add widget to the top right corner of the view
+          view.ui.add(print, "bottom-left");
+        });
+        //scale bar
+        const scaleBar = new ScaleBar({
+          view: view,
+          unit: "dual" // The scale bar displays both metric and non-metric units.
+        });
+ 
+        // Add the widget to the bottom left corner of the view
+        view.ui.add(scaleBar, {
+          position: "bottom-right"
+        });
+        // close print widget
+        // close the expand whenever a basemap is selected
+        basemapGallery.watch("activeBasemap", () => {
+          const mobileSize =
+            view.heightBreakpoint === "xsmall" ||
+            view.widthBreakpoint === "xsmall";
+ 
+          if (mobileSize) {
+            bgExpand.collapse();
+          }
+        });
+ 
+        // Add the expand instance to the ui
+ 
+        view.ui.add(bgExpand, "top-right");
+          /********************************
+         * Create a compass widget object.
+         *********************************/
+ 
+         const compassWidget = new Compass({
+          view: view
+        });
+ 
+        // Add the Compass widget to the top left corner of the view
+        view.ui.add(compassWidget, "top-left");
+       
+	map.layers = 
+	[
+
+		new FeatureLayer({
+		url: "https://services6.arcgis.com/dksjhvBcqWpncyG3/arcgis/rest/services/hospitals/FeatureServer/0",
+		popupTemplate: {
+				// autocast as esri/PopupTemplate
+				title: "Hospitals in Dharapuram",
+				content: [
+				  {
+					type: "fields",
+					fieldInfos: [
+					  {
+						fieldName: "name",
+						label: "Hospital Name",
+						format: {
+						  digitSeparator: true,
+						  places: 0
+						}
+					  },
+					  {
+						fieldName: "address",
+						label: "Address",
+						format: {
+						  digitSeparator: true,
+						  places: 0
+						}
+					  }
+					 
+					]
+				  }
+				]
+			  },
+			  labelingInfo: [labelClass],
+				renderer: {
+							  type: "simple", // autocasts as new SimpleRenderer()
+							 
+							  symbol:  {
+						  type: "web-style",
+						  name: "hospital",
+						  styleName: "Esri2DPointSymbolsStyle"
+						}
+							}
+					
+		
+			})
+		   
+		];
+ 
+			map.add(featureLayer);
+ 
+    });
+    </script>
+ </head>
+  <body> 
+	<div id="viewDiv"></div> 
+  </body>
+  
+  
+</html>
+ 
+ 
+ 
+
+
