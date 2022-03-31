@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Dharapuram</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="University final year project">
+        <meta name="keywords" content="Dharapuram,w3s Dharapuram, dpm,dpm taluk, taluk, map of dpm">
+        <meta name="author" content="Gomathi Ramalingam">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="icon" type="image/x-icon" href="https://scontent.fmaa1-3.fna.fbcdn.net/v/t1.6435-9/95251390_100322385010485_3496743822992343040_n.jpg?stp=dst-jpg_p370x247&_nc_cat=104&ccb=1-5&_nc_sid=85a577&_nc_ohc=9z2uZnX3wboAX8yNohx&_nc_ht=scontent.fmaa1-3.fna&oh=00_AT_zMgTkxRfrOB-odHeHUQIAR0-bNJHWSFoN3WiLa9OCSA&oe=62668230">
+       <link rel="stylesheet" href="https://dpmtaluk56.w3spaces.com/style1.css">
+    </head>   
+<body>
+                                  <!--Header Codes-->
+
+            <div class="header" style=>
+                <img src="https://dpmtaluk56.w3spaces.com/download.jpg" alt="photo" height="200px" width="300px"  > 
+            </div>
+                             <!-- Responsive NavBar-->
+            <div class="topnav" id="myTopnav">                 
+                <a href="https://dpmtaluk56.w3spaces.com/media.html" >Media Gallery</a>
+                <a href="https://dpmtaluk56.w3spaces.com/links.html">Useful Links</a>
+                <a href="https://dpmtaluk56.w3spaces.com/service.html">Services</a>
+                <a href="https://dpmtaluk56.w3spaces.com/about.html">About Dharapuram</a>
+                <a href="https://dpmtaluk56.w3spaces.com/index.html" class="active" >Home</a>
+               <!-- <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>-->
+            </div>
+            <!-- About Page Intro -->
+            <div class="row">
+                <div class="column">
+                  <div class="card" >
+                    <h3>About Dharapuram</h3>
+                    <p>Dharapuram (Tamil: [taːɾaːbɯɾam]) officially Tharaapuram[1] is a town in Tirupur district in the Indian state of Tamil Nadu. Dharapuram is one of the oldest towns in Tamil Nadu[2] and was the capital of Kongu Nadu under the Cheras, Western Ganga Dynasty and later Kongu Cholas, at which time it was known as Vanchipuri.[3] Amaravathi River flows through the town.[4] As of 2011, the town had a population of 67,007. Dharapuram Municipality is promoted 1st grade municipality on 6 May 1983 Dharapuram was Part of Coimbatore district in the beginning and later it moves to Erode district up to 2009. Dharapuram Town is situated along the banks of River Amaravathi, located in between <a href="https://dpmtaluk56.w3spaces.com/about.html">Read More </a></p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <h3>Dharapuram Map</h3>
+                   <img src="DPM.jpg" alt="" height="250px" width="400px" class="colimg">
+                  </div>
+                </div> 
+            </div> 
+            <div class="mid" align="center"><h3>Dharapuram Taluk</h3></div>
+            <!--Column width 33.3% -->
+            <div class="row1">
+                <div class="column1" style="overflow:hidden;">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <table "align="center">
+                                    <p class="firka">KUNDADAM</p>
+
+                                    <tr>
+                                        <td align="left">Area</td>
+                                        <td align="left">566.35Km <sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Population</td>
+                                        <td align="left">12714</td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td align="left">Population Density</td>
+                                        <td align="left">224/Km<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Male</td>
+                                        <td align="left">63818</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Female</td>
+                                        <td align="left">63296</td>
+                                    </tr>
+                                </table>
+                            </div>
+                                <div class="flip-box-back">
+                                    <img src="KUNDADAM.jpg" alt="KUNDADAM" class="firka"height="250px" width="200px">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="column1">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <table "align="center">
+                                    <p class="firka">ALANGIAM</p>
+
+                                    <tr>
+                                        <td align="left">Area</td>
+                                        <td align="left">8.8221km<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Population</td>
+                                        <td align="left">6124</td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td align="left">Population Density</td>
+                                        <td align="left">96/Km<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Male</td>
+                                        <td align="left">3297</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Female</td>
+                                        <td align="left">3827</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="flip-box-back">
+                                <img src="ALANGIAM.jpg" alt="ALANGIAM" height="250px" width="200px">
+                            </div>
+                        </div>
+                        </div>          
+                </div>
+                <div class="column1">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <table "align="center">
+                                    <p class="firka">Mulanur</p>
+
+                                    <tr>
+                                        <td align="left">Area</td>
+                                        <td align="left">557.51Km <sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Population</td>
+                                        <td align="left">82544</td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td align="left">Population Density</td>
+                                        <td align="left">148/Km<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Male</td>
+                                        <td align="left">41179</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Female</td>
+                                        <td align="left">41365</td>
+                                    </tr>
+                                </table>                            </div>
+                            <div class="flip-box-back">
+                                <img src="MULANUR.jpg" alt="Mulanur" height="250px" width="200px">
+                            </div>
+                        </div>
+                </div>           
+                </div>
+            </div>
+            <div class="row1">
+                <div class="column1" style="overflow:hidden;">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <table "align="center">
+                                    <p class="firka">Kannivadi</p>
+
+                                    <tr>
+                                        <td align="left">Area</td>
+                                        <td align="left">6.5521Km <sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Population</td>
+                                        <td align="left">4249</td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td align="left">Population Density</td>
+                                        <td align="left">74/Km<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Male</td>
+                                        <td align="left">2102</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Female</td>
+                                        <td align="left">2147</td>
+                                    </tr>
+                                </table>
+                            </div>
+                                <div class="flip-box-back">
+                                    <img src="KANNIVADI.jpg" alt="Kannivadi" class="firka"height="250px" width="200px">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="column1">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <table "align="center">
+                                    <p class="firka">Sankarandampalayam</p>
+
+                                    <tr>
+                                        <td align="left">Area</td>
+                                        <td align="left">24.6934Km <sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Population</td>
+                                        <td align="left">2690</td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td align="left">Population Density</td>
+                                        <td align="left">52/Km<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Male</td>
+                                        <td align="left">1342</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Female</td>
+                                        <td align="left">1346</td>
+                                    </tr>
+                                </table>                            </div>
+                            <div class="flip-box-back">
+                                <img src="SANKARANDAMPALAYAM.jpg" alt="SANKARANDAMPALAYAM" height="250px" width="200px">
+                            </div>
+                        </div>
+                    </div>          
+                </div>
+                <div class="column1">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <table "align="center">
+                                    <p class="firka">Ponnapuram</p>
+
+                                    <tr>
+                                        <td align="left">Area</td>
+                                        <td align="left">23.0318Km <sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Population</td>
+                                        <td align="left">2655</td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td align="left">Population Density</td>
+                                        <td align="left">49/Km<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Male</td>
+                                        <td align="left">1345</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">Female</td>
+                                        <td align="left">1310</td>
+                                    </tr>
+                                </table>                            
+                            </div>
+                            <div class="flip-box-back">
+                                <img src="Ponnapuram.jpg" alt="photo" height="250px" width="200px">
+                            </div>
+                        </div>
+                </div>           
+                </div>
+            </div>
+            <div class="mid" align="center"><h3>   </h3></div>
+            <div class="row">
+                <div class="column2">
+                    <p class="tabhead">Tiruppur District</p>
+                    <table "align="center" class="last">
+                                <tr>
+                                    <td class="Subhead" colspan="2">General:</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Country</td>
+                                    <td align="left">India</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">State</td>
+                                    <td align="left">TamilNadu</td>
+                                </tr>
+                               
+                                <tr>
+                                    <td align="left">District</td>
+                                    <td align="left">Tiruppur</td>
+                                </tr>
+                                <tr>
+                                    <td class="Subhead" colspan="2">Area(in sq. Kms):</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Area</td>
+                                    <td align="left">5087.26
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Rural</td>
+                                    <td align="left">4566.46 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Urban</td>
+                                    <td align="left">42.65
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Forest</td>
+                                    <td align="left">478.15
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="Subhead" colspan="2">Population:</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Total</td>
+                                    <td align="left">24,79,052</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Male</td>
+                                    <td align="left">12,46,159</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Female</td>
+                                    <td align="left">12,32,893</td>
+                                </tr>
+                                <tr>
+                                    <td class="Subhead" colspan="2">Others:</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Telephone code</td>
+                                    <td align="left">+91-421</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Vehicle registration</td>
+                                    <td align="left">TN-39, TN-42, TN-78</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Website</td>
+                                    <td align="left"><a href="http://tiruppur.tn.nic.in/">http://tiruppur.tn.nic.in/</a></td>
+                                 </tr>
+                    </table>
+                </div>
+                <div class="column2">
+                    <p class="tabhead">Dharapuram Taluk</p>
+                    <table "align="center" class="last">
+                                <tr>
+                                    <td class="Subhead" colspan="2">General:</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">District</td>
+                                    <td align="left">Tiruppur</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Region</td>
+                                    <td align="left">kongu Nadu</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Taluk</td>
+                                    <td align="left">Dharapuram</td>
+                                </tr>
+                                <tr>
+                                    <td class="Subhead" colspan="2">Area(in sq.Kms):</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Total</td>
+                                    <td align="left">1354.41 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="Subhead" colspan="2">Population:</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Total</td>
+                                    <td align="left">282,752</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Male</td>
+                                    <td align="left">140,576 </td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Female</td>
+                                    <td align="left">142,176</td>
+                                </tr>
+                                <tr>
+                                    <td class="Subhead" colspan="2">Others:</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Literacy  Rate</td>
+                                    <td align="left">71.34%</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">STD code</td>
+                                    <td align="left">04258</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Vehicle registration</td>
+                                    <td align="left">TN-78</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Website</td>
+                                    <td align="left" style="word-wrap: break-word;"><a href="https://www.tnurbantree.tn.gov.in/dharapuram/">.tn.gov.in/dharapuram/</a></td>
+                                 </tr>
+                    </table>
+                </div>
+                
+                <div class="column2" id="servicelink">
+                    <p class="tabhead">Services at a Glance</p>
+                    <table "align="center" class="last">
+                                <tr>
+                                    <td align="left"><img src=" https://serviceicons.w3spaces.com/atm.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">ATM</a></td>
+                                    <td align="left"><img src=" https://serviceicons.w3spaces.com/bar.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Bakeries</a></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td align="left"><img src=" https://serviceicons.w3spaces.com/embassy.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Banks</a></td>
+                                    <td align="left"><img src=" https://serviceicons.w3spaces.com/bus-station.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Bus Station</a></td>
+                                </tr>
+                              
+                                <tr>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/cross-4.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Church</a></td>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/university.png" alt="atm"width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">College</a></td>
+                                </tr>
+                               
+                                <tr>                                    
+                                    <td align="left"><img src=" https://serviceicons.w3spaces.com/tear-pin-1.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Dharapuram </a></td>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/fire-station.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Fire Station</a></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/shield-1.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Government Offices</a></td>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/hospital.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Hospitals</a></td>
+                                </tr>
+                               
+                                <tr>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/restaurant.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Hotels</a></td>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/star.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Jewellary shop</a></td>
+                                </tr>
+                               
+                                <tr>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/shield-3.png " alt="atm width="42pt" height="42pt""></a></td>
+                                    <td align="left"><a href="">Mosque</a></td>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/police-station.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Police station</a></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/post-office.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Post offfice</a></td>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/school.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">School</a></td>
+                                </tr>
+                               
+                                <tr>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/grocery-store.png" alt="atm"width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Super Markets</a></td>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/place-of-worship.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Temple</a></td> 
+                                </tr>
+                                
+                                <tr>
+                                    <td align="left"><img src="https://serviceicons.w3spaces.com/theatre.png" alt="atm" width="42pt" height="42pt"></a></td>
+                                    <td align="left"><a href="">Theatre</a></td> 
+                                </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mid" align="center"><h3>   </h3></div>
+
+    
+    </body>
+</html>
